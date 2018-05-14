@@ -67,6 +67,9 @@ namespace MvcMovie.Controllers
         // GET: Movies/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
+
+            //THIS CODE IS WRITTEN BY DJ
+            //$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
             if (id == null)
             {
                 return NotFound();
