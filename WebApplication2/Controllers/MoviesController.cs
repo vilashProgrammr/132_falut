@@ -23,7 +23,7 @@ namespace MvcMovie.Controllers
         {
             return View(await _context.Movie.ToListAsync());
         }
-
+        //THIS IS DJ
         // GET: Movies/Details/5
         public async Task<IActionResult> Details(int? id)
         {
